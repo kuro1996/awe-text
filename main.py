@@ -16,10 +16,21 @@ TEXT = (
     "and will wait a million more, asking nothing of you."
 )
 
+def build_text() -> str:
+    """Assemble the entry text. Pure function: same output every call."""
+    return TEXT
+
 def main() -> None:
+    text_a = build_text()
+    text_b = build_text()
+    assert text_a == text_b, "nondeterministic build_text(): two builds differ"
+    if not 1 <= len(text_a) <= 280:
+        raise SystemExit(
+            f"entry text length {len(text_a)} outside allowed range 1..280 characters"
+        )
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8", newline="") as f:
-        f.write(TEXT)
+        f.write(text_a)
 
 if __name__ == "__main__":
     main()
