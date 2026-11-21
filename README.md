@@ -1,6 +1,8 @@
 # Awe Text
 
 [![make-the-ai-judge-feel-awe-20261121-1600](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
+[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/kuro1996/awe-text/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
+[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/kuro1996/awe-text/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
 
 Entry for make.fun's [Make the AI judge feel awe](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600).
 
